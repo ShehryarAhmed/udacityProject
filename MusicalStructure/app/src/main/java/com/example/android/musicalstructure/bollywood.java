@@ -72,7 +72,7 @@ public class bollywood extends AppCompatActivity {
             arrayList.add(new forview(R.drawable.iconbolly,songname,R.color.boly,R.raw.song));
             arrayList.add(new forview(R.drawable.iconbolly,songname,R.color.boly,R.raw.song));
 
-            adapter adapterView = new adapter(this, arrayList,R.color.lolly,adapter.NOIMAGEBGCOLOR);
+            adapter adapterView = new adapter(this, arrayList,R.color.boly,R.color.boly);
             ListView listView = (ListView) findViewById(R.id.list);
 
             listView.setAdapter(adapterView);

@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:paddingTop="20dp"
+    android:background="@drawable/mic"
 
 
     tools:context="com.example.android.musicalstructure.MainActivity">

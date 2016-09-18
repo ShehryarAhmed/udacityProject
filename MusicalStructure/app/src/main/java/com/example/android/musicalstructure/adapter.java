@@ -44,9 +44,16 @@ public class adapter extends ArrayAdapter<forview> {
         textView.setText(forviews.getDescription());
 
 
-        View textContainer = listitemview.findViewById(R.id.Description);
+        View textContainer = listitemview.findViewById(R.id.layouts);
         int currentColor = ContextCompat.getColor(getContext(),backgroundcolor);
         textContainer.setBackgroundColor(currentColor);
+
+        if(imagebg != -1){
+            View imageviewsetbg = listitemview.findViewById(R.id.frontimage);
+            int imagecurrentcolor = ContextCompat.getColor(getContext(),imagebg);
+            imageviewsetbg.setBackgroundColor(imagecurrentcolor);
+        }
+
 
         return listitemview;
      }

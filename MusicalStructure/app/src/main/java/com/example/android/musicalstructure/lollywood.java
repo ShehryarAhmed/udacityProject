@@ -76,7 +76,7 @@ public class lollywood extends AppCompatActivity{
             arrayList.add(new forview(R.drawable.iconlolly,songname,R.color.lolly,R.raw.song));
             arrayList.add(new forview(R.drawable.iconlolly,songname,R.color.lolly,R.raw.song));
 
-            adapter adapterView = new adapter(this, arrayList,R.color.lolly,adapter.NOIMAGEBGCOLOR);
+            adapter adapterView = new adapter(this, arrayList,R.color.lolly,R.color.lolly);
             ListView listView = (ListView) findViewById(R.id.list);
 
             listView.setAdapter(adapterView);

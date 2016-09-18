@@ -73,7 +73,7 @@ public class hoolywood extends AppCompatActivity {
             arrayList.add(new forview(R.drawable.iconholly,songname,R.color.hooly,R.raw.song));
             arrayList.add(new forview(R.drawable.iconholly,songname,R.color.hooly,R.raw.song));
 
-            adapter adapterView = new adapter(this, arrayList,R.color.lolly,adapter.NOIMAGEBGCOLOR);
+            adapter adapterView = new adapter(this, arrayList,R.color.hooly,R.color.hooly);
             ListView listView = (ListView) findViewById(R.id.list);
 
             listView.setAdapter(adapterView);
